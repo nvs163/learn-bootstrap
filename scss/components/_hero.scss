@@ -1,0 +1,49 @@
+.hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
+
+  &__title {
+    margin-bottom: 30px;
+  }
+
+  &__play {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 60px;
+    height: 60px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 50%;
+
+    background-color: $primary-color;
+    cursor: pointer;
+
+    &:hover {
+      background-color: $secondary-color;
+    }
+
+    &--triangle {
+      margin-right: -3px;
+      border: 10px solid transparent;
+      border-left: 20px solid #fff;
+      border-right: none;
+    }
+  }
+
+  &__btn {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.embed-container {
+  position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;
+}
+
+.embed-container iframe, .embed-container object, .embed-container embed {
+  position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+}

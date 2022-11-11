@@ -1,0 +1,30 @@
+.about {
+  padding-bottom: 70px;
+  background-color: #eee;
+
+  &__circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 70px;
+    height: 70px;
+
+    margin: 0 auto 15px;
+
+    border: 3px solid $secondary-color;
+    border-radius: 50%;
+  }
+
+  &__icon {
+    font-size: 25px;
+    color: $secondary-color;
+  }
+
+  &__text {
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+
+}
